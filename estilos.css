@@ -1,0 +1,33 @@
+.body{
+font-family: 'Courier New', Courier, monospace;
+
+
+
+
+
+}
+.item{
+    background-color: rgb(236, 71, 140);
+    width: 200px;
+    height: 200px;
+    height: 200px;
+    margin: 300px;
+     transition:background-color, 2s;
+     clip-path: circle(30% at center);/*realiza un circulo*//**top left lo alinea a la parte superior*/
+
+}
+/*activadores:hover ,:active,:target,:focus*/
+.contenedor.item:hover{
+transition-timing-function: ease-in-out;
+
+
+
+}
+.item:hover{
+    background: steelblue;
+     /*transition:background-color, 1sm;*/
+     /*width: 400px;*/
+     /*height: 400px;*/
+     clip-path: circle(200% at top right);
+    
+    }
